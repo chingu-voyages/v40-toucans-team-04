@@ -1,5 +1,9 @@
 # voyage-tasks
 
+Hi team. Donn from team 4 here. I've just cloned the repo and am starting to push commits to our repo. For the design we are going to use Figma for wireframes. You can download it at https://www.figma.com/
+
+Once downloaded, we can collaborate on the design work in Figma and use github for sharing our html, css & js files. 
+
 Your project's `readme` is as important to success as your code. For 
 this reason you should put as much care into its creation and maintenance
 as you would any other component of the application.
