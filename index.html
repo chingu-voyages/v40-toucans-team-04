@@ -13,11 +13,13 @@
 
     <!-- Also linking to a custom style sheet to fir with our designs -->
 
+<link rel="stylesheet" href="style.css">
+
 </head>
 <body>
 
   <!-- this is the header section of the page-->
-<main>
+
     <div class="container">
         <div class="container">
         <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
@@ -28,19 +30,19 @@
     
           <ul class="nav nav-pills">
             <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Home</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Features</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">FAQ</a></li>
+            <li class="nav-item"><a href="/faq.html" class="nav-link">FAQ</a></li>
           </ul>
         </header>
       </div>
     </div>
 
     <!-- here we move onto the hero page. I will have to replace the image-->
-
+<main>
+ 
     <div class="container col-xxl-8 px-4 py-5">
       <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
         <div class="col-10 col-sm-8 col-lg-6">
-          <img src="bootstrap-themes.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+          <img src="/images/gps.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="400" height="300" loading="lazy">
         </div>
         <div class="col-lg-6">
           <h1 class="display-5 fw-bold lh-1 mb-3">Tired of not getting everything at your local store?</h1>
@@ -52,6 +54,7 @@
       </div>
     </div>
 
+
     <!-- secondary hero section that we will scroll down to when we click on the hero section-->
 
       <div class="container col-xxl-8 px-4 py-5">
@@ -61,7 +64,10 @@
                 <p class="lead">Quickly provide feedback to your local grocery store that they didn't have what you wanted. If you can't find what you're looking for, then we'll suggest another store close by that has your goods.</p>
                 <div class="d-grid gap-2 d-md-flex justify-content-md-start">
                   <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Check store</button>
-                  <button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button>
+
+                  <!-- I've removed an additional button here that will be turned into an input -->
+                  
+                  <!-- <button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button> -->
                 </div>
               </div>
           <div class="col-10 col-sm-8 col-lg-6">
@@ -79,8 +85,8 @@
         <footer class="py-3 my-4">
           <ul class="nav justify-content-center border-bottom pb-3 mb-3">
             <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Features</a></li>
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Pricing</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQ</a></li>
+           
           </ul>
           <p class="text-center text-muted">© 2022 Company, Inc</p>
         </footer>
